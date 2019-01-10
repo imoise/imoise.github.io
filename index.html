@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<title>Portfolio Home</title>
+</head>
+<body>
+
+	<h1>Welcome to Isaac's Portfolio</h1>
+	<br>
+	<div class = "skillContainer">
+		<div id = "education" class  = "skillArea">
+			<h2>Education</h2>
+			<h3>Major</h3>
+			<p class = "educationAreas" >Computer Science</p>
+			<h3>Minor</h3>
+			<p class = "educationAreas">Multimedia Web Design</p>
+			<h3>Status</h3>
+			<p class = "educationAreas">Senior</p>
+		</div>
+	</div>
+	<div class = "skillContainer">
+		<div id = "skills" class  = "skillArea">
+			<h2>Skills</h2>
+			<h3>Fluent Languages</h3>
+				<img src = "html5.png" alt = "HTML5">
+				<img src = "css3.png" alt = "CSS3">
+				<img src = "js.png" alt = "Javascript">
+				<img src = "java.png" alt = "Java">
+			<h3>Some Knowledge/ Still Learning</h3>
+				<img src = "express.png" alt = "Express JS">
+				<img src = "mySQL.png" alt = "MySQL">
+				<img src = "jQuery.jpg" alt = "jQuery">
+		</div>
+	</div>
+	<div class = "skillContainer">
+		<div id = "works" class  = "skillArea">
+			<h2>Works</h2>
+<!--Begin Single Button Section--->
+			<!--Begin Master List Section-->
+			<h3>GitHub Repository Home</h3>
+			<div class = "singleBlock">
+				<button id = "gitButton" class = "singleButton">		
+					 <img src="GitHub.jpg" alt="GitHub Logo" class = "link"> 
+					 <input type = "hidden" value = "https://github.com/imoise/" id = "gitHome">
+				</button>
+				<p class = "description">GitHub Repository Master List</p>
+			</div>
+			<!-- End Master List Section-->
+			<br>
+		<!-- Begin Porfolio Home Section-->
+			<h3>Portfolio Repository</h3>
+			<div class = "singleBlock">
+				<button id = "portfolioButton" class = "singleButton">		
+					 <img src="signature_cat.gif" alt="Cafe Logo" class = "link"> 
+					 <input type = "hidden" value = "https://github.com/imoise/imoise.github.io" id = "portRepo">
+				</button>
+				<p class = "description" >Repository for Portfolio Homepage</p>	
+			</div>
+			
+			<!-- End Porfolio Home Section-->
+<!--End Single Button Section--->
+<!--Begin FrontEnd Section--->	
+			<br>
+			<h3 id = "frontTitle">Front End Only Websites</h3>
+				<button id = "switchFront" class = "switch" >Show Website Repositories</button>
+				<br>
+				<br>
+			<!-- Begin SimpleTable Button -->
+			<div class = "webBlock">
+				<button id = "frontButton1" class ="webButton frontButton">
+					<img src="weight.jpg" alt="Scale" class = "link ">
+					<input type = "hidden" value = "https://imoise.github.io/SimpleTable/" id = "frontLink1">
+				</button>
+				<p>Simple Weight Calculator</p>
+			</div>
+			
+			<!-- End SimpleTable Button -->
+				
+			<!-- Begin ransomeNote Button -->
+			<div class = "webBlock">	
+				<button id = "frontButton2" class ="webButton frontButton">
+					<img src="thief.png" alt="Thief" class = "link">
+					<input type = "hidden" value = "https://imoise.github.io/ransomeNote/" id = "frontLink2">
+				</button>
+				<p>Ransom Note Generator</p>
+			</div>
+			<!-- End ransomeNote Button -->
+			
+			<!-- Begin cafe Button -->
+			<div class = "webBlock">
+				<button id = "frontButton3" class ="webButton frontButton">		
+					 <img src="signature_cat.gif" alt="Cafe Logo" class = "link"> 
+					 <input type = "hidden" value = "https://imoise.github.io/cafe/" id = "frontLink3">
+				</button>
+				<p>Cafe Website</p>
+			</div>
+			<!-- End cafe Button -->
+			
+			<!-- Begin Presidential-Election-Map Button -->
+			<div class = "webBlock">	
+				<button id = "frontButton4" class ="webButton frontButton">
+					<img src="america.JPG" alt="America" class = "link"> 
+					<input type = "hidden" value = "https://imoise.github.io/Presidential-Election-Map/" id = "frontLink4">
+				</button>
+				<p>Presidential Election Map</p>
+			</div>
+			<!-- End Presidential-Election-Map Button -->
+<!--End FrontEnd Section ---			
+<!--Begin Server-side Section --->				
+			<h3 id = "serverTitle">Websites with Server-side</h3>
+				<button id = "switchServer" class = "switch" >Show Website Repositories</button>
+				<br>
+				<br>
+			<!-- Begin storeBenefit Button -->
+			<div class = "webBlock">
+				<button id = "serverButton1" class ="webButton serverButton">
+					<img src="store.jpeg" alt="Store" class = "link"> 
+					<input type = "hidden" value = "https://imoise.github.io/storeBenefit/" id = "serverLink1">	
+				</button>
+				<p>Store Price Calculator</p>
+			</div>
+			<!-- End storeBenefit Button -->
+			
+			<!-- Begin NewEngland Button -->
+			<div class = "webBlock">
+				<button id = "serverButton2" class ="webButton serverButton">
+					<img src="newEngland.PNG" alt="New England" class = "link"> 
+					<input type = "hidden" value = "https://imoise.github.io/NewEngland/" id = "serverLink2">						
+				</button>
+				<p>New England Attractions</p>
+			</div>	
+			<br>
+			<!-- End NewEngland Button -->
+<!--End Server-side Section --->				
+			
+		</div>
+	</div>
+
+</body>
+</html> 
