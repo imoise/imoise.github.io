@@ -8,6 +8,9 @@ h1{
 	padding: 15px;
 	border-radius: 60px;
 }
+#title{
+	display: none;
+}
 h2{
 	background-color: rgb(0,0,0);
 	text-align: center;
@@ -56,13 +59,16 @@ imgBorder:active{
 	background-image: linear-gradient( rgb(255,69,0), rgb(216,191,216));
 	height: 580px;
 	margin-top: 40px;
+	display: none;
 }
 #skills{
 	background-image: linear-gradient(rgb(75,0,130), rgb(216,191,216));
 	height: 700px;
+	display: none;
 }
 #works{
 	background-image: linear-gradient(rgb(255,0,0), rgb(216,191,216));
+	display: none;
 }
 .skillContainer{
 	margin-bottom: 10%;
