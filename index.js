@@ -9,6 +9,10 @@
 	var serverLeave = "linear-gradient(rgb(0,0,0), rgb(0,0,255)";
 	var serverDown = "linear-gradient(rgb(0,0,0), rgb(218,165,32)";
 $(document).ready(function(){
+	$("#title").slideDown(800);
+	$("#education").slideDown(1000);
+	$("#skills").slideDown(1000);
+	$("#works").slideDown(1000);
 //Begin Frontend section
 	$("#switchFront").click(function(){	
 		if (frontBool == false){
